@@ -1,0 +1,76 @@
+.blogCard {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 8vh;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  
+  
+  .blogCard img {
+    width: 100%;
+  }
+  
+  .date {
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
+    margin-left: 2%;
+  }
+  
+  .article {
+    font-size: 1.4rem;
+    padding: 2%;
+    margin-top: 0;
+  }
+
+  .article p {
+    margin-top: 0;
+    margin-bottom: 6%;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin: 0;
+    margin-left: 2%;
+    padding: 0;
+  }
+  
+  .viewHandler {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .viewHandler:hover {
+    cursor: pointer;
+  }
+
+  @media (max-width: 1100px) {
+    .title{
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .title{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .viewHandler{
+      font-size: 1rem;
+    }
+}

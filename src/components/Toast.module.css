@@ -1,0 +1,100 @@
+.toast{
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: rgb(241, 100, 44);
+    margin-top: 16vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 8%;
+    color: white;
+    animation: slideMe .4s ease-in;
+}
+
+@keyframes slideMe {
+    0%{
+        transform: skewX(0deg) translateX(500px);
+
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+@media (max-width:1300px) {
+    .toast {
+        width: 17%;
+        animation: slideMe .4s ease-in;
+        margin-right: 1%;
+    }
+
+    @keyframes slideMe {
+        0%{
+            transform: skewX(0deg) translateX(500px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+}
+
+@media (max-width:1300px) {
+    .toast {
+        width: 30%;
+        animation: slideMe .4s ease-in;
+        margin-left: 66%;
+        position: fixed;
+        margin-top: -39vh;
+    }
+
+    @keyframes slideMe {
+        0%{
+            transform: skewX(0deg) translateX(200px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .toast {
+        width: 55%;
+        animation: slideMe .4s ease-in;
+        margin-left: 43%;
+        margin-top: -39vh;
+    }
+
+    @keyframes slideMe {
+        0%{
+            transform: skewX(0deg) translateX(200px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+}
+@media (max-width: 350px) {
+    .toast {
+        width: 60%;
+        animation: slideMe .4s ease-in;
+        margin-left: 38%;
+        margin-top: -39vh;
+        font-size: 0.8rem;
+    }
+
+    @keyframes slideMe {
+        0%{
+            transform: skewX(0deg) translateX(200px);
+    
+        }
+        100%{
+            transform: skew(0deg);
+        }
+    }
+}

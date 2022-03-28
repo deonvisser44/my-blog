@@ -1,0 +1,116 @@
+.container {
+    height: fit-content;
+    width: 15%;
+    margin: 0;
+    border-radius: 12px;
+    padding: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 16vh;
+    margin-left: 6%;
+    position: fixed;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    margin-top: 1.5%;
+    font-size: 1.4rem;
+}
+
+.imageDiv{
+    height: 95%;
+    width: 100%;
+    border-radius: 5%;
+    background-color: rgb(65, 63, 62);
+    margin-top: 1%;
+}
+
+.image{
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media (max-width: 1100px) {
+
+    .container{
+        position: static;
+        display: flex;
+        align-self: center;
+        height: 14vh;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 8vh;
+    }
+
+    .imageDiv{
+        height: 90%;
+        width: 70%;
+        margin-left: 2%;
+        margin-right: 3%;
+        padding: 0;
+    }
+
+    .image{
+        width: 95%;
+    }
+
+    .body{
+        font-size: 1.3rem;
+        margin-right: 2%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .container{
+        width: 95%;
+        height: 18vh;
+    }
+
+    .imageDiv{
+        margin-top: 1.5%;
+        float: left;
+        height: 90%;
+    }
+
+    .body{
+        text-align: justify;
+        margin-right: 1.5%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        height: 14vh;
+    }
+
+    .imageDiv{
+        float: left;
+        height: 90%;
+        width: 85%;
+    }
+
+    .image{
+        width: 95%;
+    }
+
+    .body{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .body{
+        font-size: 0.7rem;
+    }
+}
+
+
