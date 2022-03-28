@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Layout from "./components/Layout";
 import Home from './pages/Home';
 import './App.css';
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [showToast, setShowToast] = useState(false);
@@ -19,7 +19,7 @@ function App() {
     <>
       <Layout copyMail={copyMail}>
       <Routes>
-              <Route path="/" exact element={<Home showToast={showToast} />} />
+              <Route path="/my-blog" exact element={<Home showToast={showToast} />} />
             </Routes>
       </Layout>
     </>

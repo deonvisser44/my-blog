@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import classes from "./MainNavigation.module.css";
 import logo from "../assets/logoblog.png";
 import { FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";

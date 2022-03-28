@@ -18,7 +18,7 @@ function BlogCard(props) {
         </div>
 
         <p className={classes.date}>{props.date}</p>
-        <img src={props.image} alt="image" />
+        <img src={props.image} alt="portrait" />
         {!postIsOpen ? (
           <p className={classes.viewHandler} onClick={handleView}>
             Show More

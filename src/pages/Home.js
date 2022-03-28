@@ -5,7 +5,6 @@ import PersonalCard from "../components/PersonalCard";
 import Toast from "../components/Toast";
 import { db } from "../firebase";
 import {
-  getDocs,
   query,
   orderBy,
   collection,
