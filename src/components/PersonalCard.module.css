@@ -55,8 +55,8 @@
 
     .body{
         font-size: 1.3rem;
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
         margin-bottom: 2%;
     }
 
@@ -73,8 +73,9 @@
     }
 
     .body{
-        text-align: justify;
-        margin-right: 1.5%;
+        text-align: start;
+        margin-right: 3%;
+        margin-left: 3%;
         font-size: 1.3rem;
     }
 }
