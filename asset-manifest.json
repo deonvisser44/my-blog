@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-blog/static/css/main.a4f4d5bb.css",
+    "main.js": "/my-blog/static/js/main.8c2afcdd.js",
+    "static/media/deonnobg.png": "/my-blog/static/media/deonnobg.4e0b82732ec2d525096c.png",
+    "static/media/logoblog.png": "/my-blog/static/media/logoblog.1d01f6def50b090a9e6d.png",
+    "index.html": "/my-blog/index.html",
+    "main.a4f4d5bb.css.map": "/my-blog/static/css/main.a4f4d5bb.css.map",
+    "main.8c2afcdd.js.map": "/my-blog/static/js/main.8c2afcdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4f4d5bb.css",
+    "static/js/main.8c2afcdd.js"
+  ]
+}
