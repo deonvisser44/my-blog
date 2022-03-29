@@ -41,32 +41,12 @@
     }
 }
 
-@media (max-width:1300px) {
-    .toast {
-        width: 30%;
-        animation: slideMe .4s ease-in;
-        margin-left: 66%;
-        position: fixed;
-        margin-top: -39vh;
-    }
-
-    @keyframes slideMe {
-        0%{
-            transform: skewX(0deg) translateX(200px);
-    
-        }
-        100%{
-            transform: skew(0deg);
-        }
-    }
-}
-
 @media (max-width: 450px) {
     .toast {
         width: 55%;
         animation: slideMe .4s ease-in;
         margin-left: 43%;
-        margin-top: -39vh;
+        margin-top: 15vh;
     }
 
     @keyframes slideMe {
@@ -84,7 +64,7 @@
         width: 60%;
         animation: slideMe .4s ease-in;
         margin-left: 38%;
-        margin-top: -39vh;
+        margin-top: 15vh;
         font-size: 0.8rem;
     }
 
