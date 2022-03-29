@@ -58,7 +58,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.9);
     padding: 0 3%;
     position: fixed;
   }
@@ -86,6 +85,7 @@ ul {
 
   .logo{
     width: 20%;
+    background-color: white;
   }
   .li {
     margin-left: 2rem;

@@ -13,24 +13,18 @@
 .body{
     margin: 0;
     padding: 0;
-    margin-top: 1.5%;
+    margin-top: 1%;
     font-size: 1.4rem;
 }
 
-.imageDiv{
-    height: 95%;
-    width: 100%;
-    border-radius: 5%;
-    background-color: rgb(65, 63, 62);
-    margin-top: 1%;
-}
-
 .image{
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    width: 45%;
+    float: left;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #e96c18;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 
 
@@ -38,7 +32,6 @@
 
     .container{
         position: static;
-        display: flex;
         align-self: center;
         height: auto;
         width: 70%;
@@ -49,8 +42,10 @@
         margin-top: 8vh;
     }
 
-    .imageDiv{
-        display: none;
+    .image {
+        width: 25%;
+        margin-top: 2%;
+        margin-left: 2%;
     }
 
     .body{
@@ -58,6 +53,7 @@
         margin-right: 2.5%;
         margin-left: 2.5%;
         margin-bottom: 2%;
+        text-align: justify;
     }
 
 }
@@ -68,25 +64,26 @@
         height: auto;
     }
 
-    .imageDiv{
-        display: none;
+    .image {
+        float: left;
     }
 
     .body{
-        text-align: start;
         margin-right: 3%;
         margin-left: 3%;
         font-size: 1.3rem;
+        text-align: justify;
     }
 }
 
 @media (max-width: 450px) {
     .container{
         height: auto;
+        margin-top: 9vh;
     }
 
-    .imageDiv{
-        display: none;
+    .image {
+        width: 30%;
     }
 
     .body{
@@ -95,8 +92,14 @@
 }
 
 @media (max-width: 300px) {
+
     .body{
         font-size: 1rem;
+        text-align: justify;
+    }
+
+    .image {
+        width: 33%;
     }
 }
 
