@@ -15,6 +15,24 @@
     margin-left: 29%;
 }
 
+.loading {
+    position: fixed;
+    width: 10%;
+    top: 40%;
+    left: 45%;
+    animation-name:rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+
+    100%{
+      transform:rotate(360deg);
+    }
+  }
+
 
 
 @media (max-width: 1100px) {
@@ -29,7 +47,11 @@
         margin-top: 3vh;
         width: 70%;
         margin-left: 0;
+    }
 
+    .loading {
+        top: 50%;
+        left: 45%;
     }
 
 }
@@ -54,5 +76,11 @@
 @media (max-width: 600px) {
     .list{
         width: 95%;
+    }
+
+    .loading {
+        width: 20%;
+        top: 50%;
+        left: 43%;
     }
 }
