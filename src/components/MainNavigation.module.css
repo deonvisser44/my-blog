@@ -4,9 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255);
   padding: 0 10%;
   position: fixed;
+  padding-top: 0.4%;
 }
 
 .logo {
@@ -15,10 +16,6 @@
 
 .logoImg {
   width: 100%;
-}
-
-.logo:hover {
-  cursor: pointer;
 }
 
 .navbar {
@@ -49,9 +46,7 @@ ul {
   color: #e96c18;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
+.header a:hover {
   color: black;
   cursor: pointer;
 }
@@ -84,14 +79,19 @@ ul {
 
 @media (max-width: 450px) {
 
+  .header{
+    height: 6vh;
+    padding-top: 0.4%;
+  }
+
   .logo{
-    width: 18%;
+    width: 20%;
   }
   .li {
     margin-left: 2rem;
   }
   .navbar {
-    width: 50%;
+    width: 55%;
   }
 
   .header a {
