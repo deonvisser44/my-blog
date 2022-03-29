@@ -74,6 +74,10 @@ ul {
     height: 100%;
     align-items: center;
   }
+
+  .header a {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 450px) {
@@ -96,6 +100,7 @@ ul {
 
   .header a {
     font-size: 1.5rem;
+    cursor: pointer;
   }
 }
 
@@ -112,5 +117,6 @@ ul {
 
   .header a {
     font-size: 1.3rem;
+    cursor: pointer;
   }
 }
