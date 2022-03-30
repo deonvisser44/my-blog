@@ -8,6 +8,9 @@
   padding: 0 10%;
   position: fixed;
   padding-top: 0.4%;
+  -moz-box-shadow: 1px 1px 10px rgb(158, 157, 157);
+  -webkit-box-shadow: 1px 1px 10px rgb(158, 157, 157);
+  box-shadow: 1px 1px 10px rgb(158, 157, 157);
 }
 
 .logo {
@@ -81,13 +84,12 @@ ul {
 }
 
 @media (max-width: 450px) {
-
-  .header{
+  .header {
     height: 6vh;
     padding-top: 0.4%;
   }
 
-  .logo{
+  .logo {
     width: 20%;
     background-color: white;
   }
@@ -105,7 +107,7 @@ ul {
 }
 
 @media (max-width: 300px) {
-  .logo{
+  .logo {
     width: 18%;
   }
   .li {
