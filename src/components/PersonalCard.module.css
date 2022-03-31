@@ -16,7 +16,7 @@
     margin-top: 1%;
     font-size: 1.4rem;
     font-family: monospace;
-    line-height: 110%;
+    line-height: 120%;
 }
 
 .image{
@@ -45,7 +45,7 @@
     }
 
     .image {
-        width: 10%;
+        width: 12%;
         margin-top: 2%;
         margin-left: 2%;
         margin-bottom: 2%;
@@ -68,7 +68,7 @@
     }
 
     .image {
-        float: left;
+        display: none;
     }
 
     .body{
@@ -85,8 +85,7 @@
     }
 
     .image {
-        margin-bottom: 0;
-        width: 30%;
+        display: none;
     }
 
     .body{
@@ -101,7 +100,7 @@
     }
 
     .image {
-        width: 33%;
+        display: none;
     }
 }
 

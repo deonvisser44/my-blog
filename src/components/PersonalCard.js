@@ -9,9 +9,9 @@ function PersonalCard() {
         <img className={classes.image} src={image} alt="self portrait" />
       </div>
       <p className={classes.body}>
-        Hi there! I'm Deon Visser, web developer and CS student. I built this blog along with a CMS to post and manage its
+        Hi there! <span>&#x1F44B;</span> I'm Deon Visser, web developer and CS student. I built this blog along with a CMS to post and manage its
         content. I will be using it to post about my learning progress as a web
-        developer. Thanks for stopping by.
+        developer. Thanks for stopping by.<span>&#x1F600;</span>
       </p>
     </div>
   );
